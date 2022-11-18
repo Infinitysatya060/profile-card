@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(38, 133, 133);
+    overflow: hidden;
+}
+.card{
+    height: 80vh;
+  width: 30vw;
+   
+    margin: 0 auto;
+    margin-top: 5%;
+    background-color: white;
+    border-radius: 10px;
+}
+.picture img{
+    width: 30vw;
+   border-top-left-radius: 10px;
+   border-top-right-radius: 10px;
+}
+.profile{
+    height: 16vh;
+    width: 20vw;
+    /* border: 5px solid white; */
+    border-radius: 50%;
+    margin: 0 auto;
+    position: relative;
+    top: -55px;
+    left: 80px;
+}
+.profile img{
+    border-radius: 50%;
+    margin: 0 auto;
+    height: 20vh;
+    width:10vw ;
+    border: 5px solid white;
+}
+.name h3{
+    position: relative;
+    left: 140px;
+    top: -30px;
+}
+h3 span{
+    padding-left: 10px;
+    color: gray;
+}
+.name h5{
+    position: relative;
+    left: 177px;
+    top: -12px;
+    color: gray;
+}
+.sub{
+    width: 30vw;
+    /* height: auto; */
+    border-top: 1px solid gray;
+    border-radius: 10px;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+}
+li{
+    margin: 35px;
+}
+.sub2{
+    display: inline-block;
+    margin: 35px;
+}
+.sub2 h3{
+    margin: 5px;
+}
+.sub span{
+letter-spacing: 1.5px;
+color: gray;
+}
+.top{
+    position: absolute;
+    top: -650px;
+    left: -200px;
+    z-index: 1;
+}
+.bottom{
+    position: absolute;
+    top:350px ;
+    left: 700px;
+    z-index: 1;
+}
+@media screen and (max-width:1000px)
+{
+    .card{
+        width: 80%;
+        height: auto;
+
+
+   
+}
+.picture img{
+    width: 100%;
+}
+.profile img {
+    
+width: 25vw;
+height: 15vh;
+position: absolute;
+left: -80px;
+
+    
+}
+.name h3{
+    position: relative;
+    left: 105px;
+}
+.name h5{
+    position: relative;
+    left: 140px;
+}
+.sub{
+    width: 100%;
+}
+.sub2{
+    margin: 20px;
+}
+
+
+}
